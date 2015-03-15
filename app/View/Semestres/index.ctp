@@ -5,17 +5,17 @@
 <table>
 <tr>
 <th>Id</th>
-<th>Título</th>
-<th>Data de Criação</th>
+<th>Tï¿½tulo</th>
+<th>Data de Criaï¿½ï¿½o</th>
 <th></th>
 <th></th>
 </tr>
-<!-- Aqui é onde nós percorremos nossa matriz $posts, imprimindo
-as informações dos posts -->
+<!-- Aqui ï¿½ onde nï¿½s percorremos nossa matriz $posts, imprimindo
+as informaï¿½ï¿½es dos posts -->
     <?php foreach($semestres as $semestre){ ?>
 <tr>
     <td><?php echo $semestre['Semestre']['id']; ?></td>
-    <td><?php echo $this->Html->link($semestre['Semestre']['titulo'],array('action' => 'view' , $semestre['Semestre']['id']));?></td>
+    <td><?php echo $this->Html->link($semestre['Semestre']['titulo'],array('controller' => 'materias','action' => 'index' , $semestre['Semestre']['id']));?></td>
     <td><?php echo $semestre['Semestre']['created']; ?></td>
     <td><?php echo $this->Html->link('Editar',array('action' =>'edit',$semestre['Semestre']['id']));?></td>
     <td><?php echo $this->Form->postLink('Deletar',array('action'=>'delete',$semestre['Semestre']['id']),array('confirm'=>'Deseja realmente excluir?')) ?></td>

@@ -1,0 +1,2270 @@
+2015-03-11 15:55:42 Error: Fatal Error (1): Class 'appModel' not found in [C:\xamppp\htdocs\cakephp2.6.1\app\Model\Post.php, line 3]
+2015-03-11 15:55:42 Error: [FatalErrorException] Class 'appModel' not found
+Request URL: /cakephp2.6.1/posts
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'appModel...', 'C:\\xamppp\\htdoc...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'appModel...', 'C:\\xamppp\\htdoc...', 3, Array)
+#2 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'appModel...', 'C:\\xamppp\\htdoc...', 3, Array)
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-11 15:56:28 Error: [MissingActionException] Action PostsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'view',
+)
+Request URL: /cakephp2.6.1/posts/view/2
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-11 17:06:28 Error: [MissingActionException] Action PostsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'view',
+)
+Request URL: /cakephp2.6.1/posts/view/1
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-11 17:06:45 Error: [MissingViewException] View file "Posts\view.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Posts\\view.ctp',
+)
+Request URL: /cakephp2.6.1/posts/view/1
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-11 17:52:35 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp2.6.1/add
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-11 17:52:40 Error: [MissingControllerException] Controller class PostController could not be found.
+Exception Attributes: array (
+  'class' => 'PostController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp2.6.1/post
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-11 19:02:30 Error: [MissingActionException] Action PostsController::delete() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'delete',
+)
+Request URL: /cakephp2.6.1/posts/delete
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-11 19:04:52 Error: [MissingViewException] View file "Posts\delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Posts\\delete.ctp',
+)
+Request URL: /cakephp2.6.1/posts/delete/7
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-11 19:06:27 Error: [MissingViewException] View file "Posts\delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Posts\\delete.ctp',
+)
+Request URL: /cakephp2.6.1/posts/delete/5
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-11 19:11:57 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /cakephp2.6.1/posts/delete/3
+Stack Trace:
+#0 [internal function]: PostsController->delete('3')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-11 19:12:51 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /cakephp2.6.1/posts/delete/6
+Stack Trace:
+#0 [internal function]: PostsController->delete('6')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-11 19:14:46 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /cakephp2.6.1/posts/delete/1
+Stack Trace:
+#0 [internal function]: PostsController->delete('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-11 19:15:26 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /cakephp2.6.1/posts/delete/1
+Stack Trace:
+#0 [internal function]: PostsController->delete('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-11 19:16:51 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /cakephp2.6.1/posts/delete/1
+Stack Trace:
+#0 [internal function]: PostsController->delete('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-11 19:17:36 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /cakephp2.6.1/posts/delete/4
+Stack Trace:
+#0 [internal function]: PostsController->delete('4')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-11 19:20:06 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /cakephp2.6.1/posts/delete/4
+Stack Trace:
+#0 [internal function]: PostsController->delete('4')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-11 20:15:24 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /cakephp2.6.1/posts/delete/1
+Stack Trace:
+#0 [internal function]: PostsController->delete('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-11 20:19:47 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /cakephp2.6.1/posts/delete/1
+Stack Trace:
+#0 [internal function]: PostsController->delete('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-11 20:22:17 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /cakephp2.6.1/posts/delete/2
+Stack Trace:
+#0 [internal function]: PostsController->delete('2')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-12 13:07:49 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-12 13:07:55 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-12 13:07:56 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-12 13:07:56 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-12 13:08:46 Error: [MissingControllerException] Controller class PostController could not be found.
+Exception Attributes: array (
+  'class' => 'PostController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-12 13:08:49 Error: [MissingControllerException] Controller class PostController could not be found.
+Exception Attributes: array (
+  'class' => 'PostController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-12 13:43:34 Error: [MissingControllerException] Controller class SemestresController could not be found.
+Exception Attributes: array (
+  'class' => 'SemestresController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-12 13:44:19 Error: [MissingControllerException] Controller class SemestresController could not be found.
+Exception Attributes: array (
+  'class' => 'SemestresController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-12 13:45:05 Error: [MissingControllerException] Controller class SemestresController could not be found.
+Exception Attributes: array (
+  'class' => 'SemestresController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-12 13:46:15 Error: [MissingControllerException] Controller class SemestresController could not be found.
+Exception Attributes: array (
+  'class' => 'SemestresController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-12 13:46:18 Error: [MissingControllerException] Controller class SemestresController could not be found.
+Exception Attributes: array (
+  'class' => 'SemestresController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-12 13:46:29 Error: [MissingControllerException] Controller class SemestresController could not be found.
+Exception Attributes: array (
+  'class' => 'SemestresController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-12 13:47:27 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xamppp\htdocs\cakephp2.6.1\app\Controller\SemestresController.php, line 7]
+2015-03-12 13:47:27 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xamppp\\htdoc...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xamppp\\htdoc...', 7, Array)
+#2 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xamppp\\htdoc...', 7, Array)
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-12 13:48:14 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xamppp\htdocs\cakephp2.6.1\app\Controller\SemestresController.php, line 7]
+2015-03-12 13:48:14 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xamppp\\htdoc...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xamppp\\htdoc...', 7, Array)
+#2 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xamppp\\htdoc...', 7, Array)
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-12 13:49:25 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xamppp\htdocs\cakephp2.6.1\app\Controller\SemestresController.php, line 7]
+2015-03-12 13:49:25 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xamppp\\htdoc...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xamppp\\htdoc...', 7, Array)
+#2 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xamppp\\htdoc...', 7, Array)
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-12 13:49:29 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xamppp\htdocs\cakephp2.6.1\app\Controller\SemestresController.php, line 7]
+2015-03-12 13:49:29 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xamppp\\htdoc...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xamppp\\htdoc...', 7, Array)
+#2 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xamppp\\htdoc...', 7, Array)
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-12 13:50:13 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY) in [C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp, line 14]
+2015-03-12 13:50:13 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xamppp\\htdoc...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xamppp\\htdoc...', 14, Array)
+#2 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xamppp\\htdoc...', 14, Array)
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-12 13:51:34 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY) in [C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp, line 14]
+2015-03-12 13:51:34 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xamppp\\htdoc...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xamppp\\htdoc...', 14, Array)
+#2 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xamppp\\htdoc...', 14, Array)
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-12 13:51:37 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY) in [C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp, line 14]
+2015-03-12 13:51:37 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xamppp\\htdoc...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xamppp\\htdoc...', 14, Array)
+#2 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xamppp\\htdoc...', 14, Array)
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-12 14:08:38 Error: Fatal Error (1): Call to a member function save() on a non-object in [C:\xamppp\htdocs\cakephp2.6.1\app\Controller\SemestresController.php, line 14]
+2015-03-12 14:08:38 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /cakephp2.6.1/semestres/add
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xamppp\\htdoc...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xamppp\\htdoc...', 14, Array)
+#2 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xamppp\\htdoc...', 14, Array)
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-12 14:09:15 Error: Fatal Error (1): Call to a member function save() on a non-object in [C:\xamppp\htdocs\cakephp2.6.1\app\Controller\SemestresController.php, line 14]
+2015-03-12 14:09:15 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /cakephp2.6.1/semestres/add
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xamppp\\htdoc...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xamppp\\htdoc...', 14, Array)
+#2 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xamppp\\htdoc...', 14, Array)
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-12 14:10:46 Error: Fatal Error (1): Call to a member function save() on a non-object in [C:\xamppp\htdocs\cakephp2.6.1\app\Controller\SemestresController.php, line 14]
+2015-03-12 14:10:46 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /cakephp2.6.1/semestres/add
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xamppp\\htdoc...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xamppp\\htdoc...', 14, Array)
+#2 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xamppp\\htdoc...', 14, Array)
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-12 14:11:12 Error: Fatal Error (1): Call to a member function save() on a non-object in [C:\xamppp\htdocs\cakephp2.6.1\app\Controller\SemestresController.php, line 14]
+2015-03-12 14:11:12 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /cakephp2.6.1/semestres/add
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xamppp\\htdoc...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xamppp\\htdoc...', 14, Array)
+#2 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xamppp\\htdoc...', 14, Array)
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-12 14:11:54 Error: Fatal Error (1): Call to a member function save() on a non-object in [C:\xamppp\htdocs\cakephp2.6.1\app\Controller\SemestresController.php, line 15]
+2015-03-12 14:11:54 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /cakephp2.6.1/semestres/add
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xamppp\\htdoc...', 15)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xamppp\\htdoc...', 15, Array)
+#2 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xamppp\\htdoc...', 15, Array)
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-12 14:13:16 Error: Fatal Error (1): Call to a member function save() on a non-object in [C:\xamppp\htdocs\cakephp2.6.1\app\Controller\SemestresController.php, line 15]
+2015-03-12 14:13:16 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /cakephp2.6.1/semestres/add
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xamppp\\htdoc...', 15)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xamppp\\htdoc...', 15, Array)
+#2 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xamppp\\htdoc...', 15, Array)
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-12 14:14:04 Error: Fatal Error (1): Call to a member function save() on a non-object in [C:\xamppp\htdocs\cakephp2.6.1\app\Controller\SemestresController.php, line 15]
+2015-03-12 14:14:04 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /cakephp2.6.1/semestres/add
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xamppp\\htdoc...', 15)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xamppp\\htdoc...', 15, Array)
+#2 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xamppp\\htdoc...', 15, Array)
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-12 14:14:27 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:14:35 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:14:39 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:14:41 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:15:20 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:15:21 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:15:21 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:15:21 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:15:22 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:15:22 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:15:23 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:15:23 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:15:23 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:15:23 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:15:23 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:15:23 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:15:23 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:15:23 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:15:23 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:15:23 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:15:23 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:15:23 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:15:23 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:16:07 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:16:23 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:19:19 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:20:04 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:20:05 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:20:05 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:20:05 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:20:06 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:20:06 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:20:06 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:20:06 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:20:06 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:20:06 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:20:06 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:20:06 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:20:06 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:20:06 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:20:06 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:20:06 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:20:06 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:20:06 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:20:06 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:20:06 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:20:09 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:20:25 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:21:18 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:21:34 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:21:34 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:21:35 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:21:35 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:21:35 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:21:35 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:21:35 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:21:35 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:21:35 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:21:35 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:21:35 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:22:01 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:22:29 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:23:29 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:23:31 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:25:16 Error: [MissingHelperException] Helper class 1Helper could not be found.
+Exception Attributes: array (
+  'class' => '1Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('1')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('1')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('1')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:27:09 Error: [MissingHelperException] Helper class 3Helper could not be found.
+Exception Attributes: array (
+  'class' => '3Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('3')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('3')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('3')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:30:26 Error: [MissingHelperException] Helper class 3Helper could not be found.
+Exception Attributes: array (
+  'class' => '3Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('3')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('3')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('3')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:30:29 Error: [MissingHelperException] Helper class 3Helper could not be found.
+Exception Attributes: array (
+  'class' => '3Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('3')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('3')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('3')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:30:30 Error: [MissingHelperException] Helper class 3Helper could not be found.
+Exception Attributes: array (
+  'class' => '3Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('3')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('3')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('3')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:30:30 Error: [MissingHelperException] Helper class 3Helper could not be found.
+Exception Attributes: array (
+  'class' => '3Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('3')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('3')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('3')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:30:31 Error: [MissingHelperException] Helper class 3Helper could not be found.
+Exception Attributes: array (
+  'class' => '3Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('3')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('3')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('3')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:30:31 Error: [MissingHelperException] Helper class 3Helper could not be found.
+Exception Attributes: array (
+  'class' => '3Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('3')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('3')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('3')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:30:31 Error: [MissingHelperException] Helper class 3Helper could not be found.
+Exception Attributes: array (
+  'class' => '3Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('3')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('3')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('3')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:30:32 Error: [MissingHelperException] Helper class 3Helper could not be found.
+Exception Attributes: array (
+  'class' => '3Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('3')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('3')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('3')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:30:32 Error: [MissingHelperException] Helper class 3Helper could not be found.
+Exception Attributes: array (
+  'class' => '3Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('3')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('3')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('3')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:30:33 Error: [MissingHelperException] Helper class 3Helper could not be found.
+Exception Attributes: array (
+  'class' => '3Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('3')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('3')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('3')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:30:37 Error: [MissingHelperException] Helper class 3Helper could not be found.
+Exception Attributes: array (
+  'class' => '3Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('3')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('3')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('3')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:30:52 Error: [MissingHelperException] Helper class 3Helper could not be found.
+Exception Attributes: array (
+  'class' => '3Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('3')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('3')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('3')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:35:34 Error: [MissingHelperException] Helper class 3Helper could not be found.
+Exception Attributes: array (
+  'class' => '3Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('3')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('3')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('3')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:46:10 Error: [MissingHelperException] Helper class 3Helper could not be found.
+Exception Attributes: array (
+  'class' => '3Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('3')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('3')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('3')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:47:16 Error: [MissingHelperException] Helper class 3Helper could not be found.
+Exception Attributes: array (
+  'class' => '3Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('3')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('3')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('3')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:48:32 Error: [MissingHelperException] Helper class 3Helper could not be found.
+Exception Attributes: array (
+  'class' => '3Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('3')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('3')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('3')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:50:11 Error: [MissingHelperException] Helper class 3Helper could not be found.
+Exception Attributes: array (
+  'class' => '3Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('3')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('3')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('3')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:51:26 Error: [MissingHelperException] Helper class 3Helper could not be found.
+Exception Attributes: array (
+  'class' => '3Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('3')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('3')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('3')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 14:55:06 Error: Fatal Error (1): Cannot access empty property in [C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php, line 867]
+2015-03-12 14:55:06 Error: [FatalErrorException] Cannot access empty property
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot access e...', 'C:\\xamppp\\htdoc...', 867)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot access e...', 'C:\\xamppp\\htdoc...', 867, Array)
+#2 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot access e...', 'C:\\xamppp\\htdoc...', 867, Array)
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-12 14:55:21 Error: [MissingHelperException] Helper class 3Helper could not be found.
+Exception Attributes: array (
+  'class' => '3Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('3')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('3')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('3')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 15:09:45 Error: [MissingHelperException] Helper class 3Helper could not be found.
+Exception Attributes: array (
+  'class' => '3Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('3')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('3')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('3')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 15:10:02 Error: [MissingHelperException] Helper class 3Helper could not be found.
+Exception Attributes: array (
+  'class' => '3Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('3')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('3')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('3')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 15:14:00 Error: [MissingHelperException] Helper class 3Helper could not be found.
+Exception Attributes: array (
+  'class' => '3Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/semestres
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('3')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('3')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('3')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 15:15:59 Error: [MissingHelperException] Helper class 3Helper could not be found.
+Exception Attributes: array (
+  'class' => '3Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('3')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('3')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('3')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 15:21:38 Error: [MissingHelperException] Helper class 3Helper could not be found.
+Exception Attributes: array (
+  'class' => '3Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('3')
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(848): HelperCollection->__isset('3')
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\index.ctp(13): View->__get('3')
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(961): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(923): View->_evaluate('C:\\xamppp\\htdoc...', Array)
+#5 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(473): View->_render('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#9 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-12 15:38:04 Error: [MissingActionException] Action SemestresController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'SemestresController',
+  'action' => 'view',
+)
+Request URL: /cakephp2.6.1/Semestres/view/3
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-12 15:44:32 Error: [MissingViewException] View file "Semestres\edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Semestres\\edit.ctp',
+)
+Request URL: /cakephp2.6.1/Semestres/edit/3
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#4 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-12 17:44:37 Error: [MissingViewException] View file "Semestres\edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Semestres\\edit.ctp',
+)
+Request URL: /cakephp2.6.1/semestres/edit/3
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#4 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-12 17:49:41 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in [C:\xamppp\htdocs\cakephp2.6.1\app\View\Semestres\edit.ctp, line 5]
+2015-03-12 17:49:41 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+Request URL: /cakephp2.6.1/semestres/edit/3
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xamppp\\htdoc...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xamppp\\htdoc...', 5, Array)
+#2 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xamppp\\htdoc...', 5, Array)
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-12 18:25:43 Error: [MissingViewException] View file "Semestres\delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Semestres\\delete.ctp',
+)
+Request URL: /cakephp2.6.1/semestres/delete/3
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#4 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-12 18:39:01 Error: [MissingActionException] Action SemestresController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'SemestresController',
+  'action' => 'view',
+)
+Request URL: /cakephp2.6.1/semestres/view/5
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-12 18:54:44 Error: [MissingActionException] Action SemestresController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'SemestresController',
+  'action' => 'view',
+)
+Request URL: /cakephp2.6.1/semestres/view/5
+Stack Trace:
+#0 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xamppp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#2 C:\xamppp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-13 03:20:56 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Unknown database \'cakephp\'',
+  'enabled' => true,
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp2.6.1\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\xampp\htdocs\cakephp2.6.1\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\cakephp2.6.1\lib\Cake\Model\Model.php(3613): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\cakephp2.6.1\lib\Cake\Model\Model.php(1155): Model->setDataSource('default')
+#4 C:\xampp\htdocs\cakephp2.6.1\lib\Cake\Model\Model.php(3640): Model->setSource('semestres')
+#5 C:\xampp\htdocs\cakephp2.6.1\lib\Cake\Model\Model.php(3018): Model->getDataSource()
+#6 C:\xampp\htdocs\cakephp2.6.1\lib\Cake\Model\Model.php(2990): Model->_readDataSource('all', Array)
+#7 C:\xampp\htdocs\cakephp2.6.1\app\Controller\SemestresController.php(8): Model->find('all')
+#8 [internal function]: SemestresController->index()
+#9 C:\xampp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SemestresController), Array)
+#10 C:\xampp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-03-13 03:21:43 Error: [MissingTableException] Table semestres for model Semestre was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'semestres',
+  'class' => 'Semestre',
+  'ds' => 'default',
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp2.6.1\lib\Cake\Model\Model.php(3640): Model->setSource('semestres')
+#1 C:\xampp\htdocs\cakephp2.6.1\lib\Cake\Model\Model.php(3018): Model->getDataSource()
+#2 C:\xampp\htdocs\cakephp2.6.1\lib\Cake\Model\Model.php(2990): Model->_readDataSource('all', Array)
+#3 C:\xampp\htdocs\cakephp2.6.1\app\Controller\SemestresController.php(8): Model->find('all')
+#4 [internal function]: SemestresController->index()
+#5 C:\xampp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SemestresController), Array)
+#6 C:\xampp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#8 C:\xampp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-03-13 03:21:44 Error: [MissingTableException] Table semestres for model Semestre was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'semestres',
+  'class' => 'Semestre',
+  'ds' => 'default',
+)
+Request URL: /cakephp2.6.1/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp2.6.1\lib\Cake\Model\Model.php(3640): Model->setSource('semestres')
+#1 C:\xampp\htdocs\cakephp2.6.1\lib\Cake\Model\Model.php(3018): Model->getDataSource()
+#2 C:\xampp\htdocs\cakephp2.6.1\lib\Cake\Model\Model.php(2990): Model->_readDataSource('all', Array)
+#3 C:\xampp\htdocs\cakephp2.6.1\app\Controller\SemestresController.php(8): Model->find('all')
+#4 [internal function]: SemestresController->index()
+#5 C:\xampp\htdocs\cakephp2.6.1\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SemestresController), Array)
+#6 C:\xampp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#8 C:\xampp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-03-13 03:31:01 Error: [MissingActionException] Action SemestresController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'SemestresController',
+  'action' => 'view',
+)
+Request URL: /cakephp2.6.1/semestres/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp2.6.1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp2.6.1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-13 03:35:06 Error: [MissingActionException] Action SemestresController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'SemestresController',
+  'action' => 'view',
+)
+Request URL: /cakephp/Semestres/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemestresController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-13 04:02:05 Error: [MissingHelperException] Helper class SemestreHelper could not be found.
+Exception Attributes: array (
+  'class' => 'SemestreHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/materias/index/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Semestre')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(848): HelperCollection->__isset('Semestre')
+#2 C:\xampp\htdocs\cakephp\app\View\Materias\index.ctp(21): View->__get('Semestre')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MateriasController), Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-13 04:02:07 Error: [MissingHelperException] Helper class SemestreHelper could not be found.
+Exception Attributes: array (
+  'class' => 'SemestreHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/materias/index/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Semestre')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(848): HelperCollection->__isset('Semestre')
+#2 C:\xampp\htdocs\cakephp\app\View\Materias\index.ctp(21): View->__get('Semestre')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MateriasController), Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-15 04:10:23 Error: Fatal Error (1): Call to a member function find() on null in [C:\xampp\htdocs\cakephp\app\Controller\MateriasController.php, line 9]
+2015-03-15 04:10:23 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cakephp/materias/index/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 9)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 9, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 9, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

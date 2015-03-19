@@ -1,14 +1,19 @@
 <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
 
-<h1>Posts do Blog</h1>
+<h1>Semestres</h1>
+<br>
 <?php echo $this->Html->link('Adicionar Semestre',array('controller' => 'semestres' , 'action' => 'add')); ?>
+<br>
+<?php echo $this->Html->link('Adicionar Usuário',array('controller'=>'Users','action'=>'add')) ?>
+<br>
+<br>
 <table>
 <tr>
 <th>Id</th>
-<th>T�tulo</th>
-<th>Data de Cria��o</th>
-<th></th>
-<th></th>
+<th>TITULO</th>
+<th>DATA DE CRIACAO</th>
+<th>EDITAR</th>
+<th>DELETAR</th>
 </tr>
 <!-- Aqui � onde n�s percorremos nossa matriz $posts, imprimindo
 as informa��es dos posts -->
